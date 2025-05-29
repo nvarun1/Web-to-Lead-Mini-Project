@@ -11,7 +11,7 @@ function beforeSubmit() {
     outputdate.value = formattedDate;
     } else {
         alert("Please Check the reCaptcha box to submit the lead");
-        event.preventDefault();//this method will stop the submission of the form
+        event.preventDefault();//this method will stop the submission of the form -- event is deprecated
     }
 }
 
