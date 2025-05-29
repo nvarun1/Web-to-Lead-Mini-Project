@@ -20,6 +20,12 @@ input{
     width: 100%;
 }
 
+.g-recaptcha{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
 .submit{
     width: 40%;
     margin: 15px auto 0 auto;
